@@ -1,9 +1,12 @@
 # INTRUSION DETECTION SYSTEM
  
  Overview
+ 
 This repository implements a deep learning-based Network Intrusion Detection System (NIDS) that utilizes a hybrid architecture combining Convolutional Neural Networks (CNNs), Bidirectional LSTMs, and a custom Self-Attention mechanism. The model is designed to classify network traffic as either normal or malicious and can operate across multiple benchmark intrusion detection datasets.
 
+
 Theoretical Background
+
 Network Intrusion Detection
 Network Intrusion Detection Systems (NIDS) monitor and analyze network traffic to identify signs of intrusions or malicious behavior. Types of attacks detected include:
 
@@ -14,6 +17,7 @@ Probing: Scanning networks to discover vulnerabilities
 User to Root (U2R): Privilege escalation by regular users
 
 Remote to Local (R2L): Remote attackers gaining unauthorized local access
+
 
 
 Deep Learning Approach
