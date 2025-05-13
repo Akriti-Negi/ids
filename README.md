@@ -58,7 +58,7 @@ To develop a deep learning-based Intrusion Detection System (IDS) that generaliz
 
 Input → Conv1D → MaxPooling1D → BiLSTM → SelfAttention → GAP → Dense → Dropout → Output (Softmax)
 
-`
+
 
 ### Key Components:
 
